@@ -1,3 +1,12 @@
+def customer(nama):
+    orang = nama
+    print('='*100)
+    print('Halo Selamat Datang Di Pusat Rekomendasi HP Terbaik')
+    print('Dengan ID:')
+    return orang
+a = customer(nama = input('Masukan nama anda : '))
+print(a)
+
 class HP() :   
     def merek(self, merk):
         merk = merk.capitalize()
@@ -41,15 +50,6 @@ class HP() :
         else :
             print ('Belum ada HP yang cocok'
 
-from kumpulanHP import*
-def customer(nama):
-    orang = nama
-    print('='*100)
-    print('Halo Selamat Datang Di Pusat Rekomendasi HP Terbaik')
-    print('Dengan ID:')
-    return orang
-a = customer(nama = input('Masukan nama anda : '))
-print(a)
 n=1
 while (n<=1):
     budget = float(input ("Masukan modal anda dalam Juta : "))
